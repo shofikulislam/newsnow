@@ -1,0 +1,28 @@
+/* Video Block
+================================================== */
+.video-icon {
+  text-align: center;
+  color: #fff;
+  display: block;
+  top: 50%;
+  margin-top: -50px;
+  font-size: 32px;
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  margin-left: -40px;
+  width: 80px;
+  height: 80px;
+  line-height: 65px;
+  border: 7px solid #fff;
+  display: inline-block;
+  border-radius: 100%; }
+  .video-icon i {
+    margin-left: 5px; }
+
+/*==================================================  
+                   video block
+================================================== */
+.full-width-video .video-icon {
+  background: #fff;
+  color: #fb313b; }

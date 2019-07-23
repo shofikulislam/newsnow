@@ -4,48 +4,66 @@
 @media (min-width: 1200px) {
   /* Header */
   .navbar-nav li:hover .dropdown-menu {
-    display: block; }
+    display: block;
+  }
   .navbar-collapse {
-    padding-right: 0; } }
+    padding-right: 0;
+  }
+}
 
 /* Medium Devices, Desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   .navbar-nav li:hover .dropdown-menu {
-    display: block; }
+    display: block;
+  }
   ul.navbar-nav > li {
-    padding: 0 6px; }
+    padding: 0 6px;
+  }
   ul.navbar-nav > li > a {
-    padding: 0px; }
+    padding: 0px;
+  }
   ul.navbar-nav > li > a,
   .dropdown-menu li a {
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .mega-menu-content {
-    max-width: 930px; } }
+    max-width: 930px;
+  }
+}
 
 /* Small Devices, Tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   .logo img {
-    height: 40px; }
+    height: 40px;
+  }
   /* Navigation breakpoint */
   .navbar-toggler {
-    margin-left: 10px; }
+    margin-left: 10px;
+  }
   .navbar-collapse.collapse.show {
-    display: block; }
+    display: block;
+  }
   ul.navbar-nav {
     /* float: none !important; */
-    margin-top: 7.5px; }
+    margin-top: 7.5px;
+  }
   ul.navbar-nav > li {
     float: none;
-    display: block; }
+    display: block;
+  }
   .collapse.in {
-    display: block !important; }
+    display: block !important;
+  }
   .navbar-collapse.in {
-    overflow-y: auto; }
+    overflow-y: auto;
+  }
   ul.nav li.dropdown:hover ul.dropdown-menu {
-    display: none; }
+    display: none;
+  }
   ul.nav li.dropdown.open ul.dropdown-menu {
-    display: block; }
+    display: block;
+  }
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -54,64 +72,84 @@
     background-color: transparent;
     border: 0;
     -webkit-box-shadow: none;
-    box-shadow: none; }
+    box-shadow: none;
+  }
   /* Navigation */
   .navbar-collapse {
     background: none;
-    width: 100%; }
+    width: 100%;
+  }
   ul.navbar-nav > li:hover > a:after,
   ul.navbar-nav > li.active > a:after {
-    content: ''; }
+    content: '';
+  }
   ul.navbar-nav > li > a:before {
-    border-bottom: 0; }
+    border-bottom: 0;
+  }
   .navbar-nav .open .dropdown-menu > li {
-    padding-left: 0; }
+    padding-left: 0;
+  }
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
-    padding: 5px 15px 10px 10px; }
+    padding: 5px 15px 10px 10px;
+  }
   ul.navbar-nav > li,
   .nav-style-boxed ul.navbar-nav > li {
-    display: block; }
+    display: block;
+  }
   .navbar-nav .open .dropdown-menu > li > a {
-    line-height: 30px; }
+    line-height: 30px;
+  }
   ul.navbar-nav > li.nav-search,
   ul.navbar-nav > li.header-get-a-quote {
-    display: none; }
+    display: none;
+  }
   ul.navbar-nav {
-    padding: 0 0 10px; }
+    padding: 0 0 10px;
+  }
   ul.navbar-nav li {
-    float: none; }
+    float: none;
+  }
   ul.navbar-nav li a {
     line-height: normal !important;
     color: #fff;
     padding: 10px 0;
     display: block;
-    min-width: 350px; }
+    min-width: 350px;
+  }
   ul.navbar-nav > .nav-item > .nav-link {
     border-bottom: 1px solid #333 !important;
-    padding: 10px 10px; }
+    padding: 10px 10px;
+  }
   ul.navbar-nav .dropdown-menu {
     float: none;
     position: relative;
     border: 0;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   ul.navbar-nav .dropdown-menu li a {
-    padding-left: 20px !important; }
+    padding-left: 20px !important;
+  }
   ul.navbar-nav li.dropdown ul.dropdown-menu li.dropdown-submenu .dropdown-menu {
     left: 0;
-    position: relative; }
+    position: relative;
+  }
   ul.navbar-nav li.dropdown ul.dropdown-menu li.dropdown-submenu .dropdown-menu a {
-    padding-left: 50px; }
+    padding-left: 50px;
+  }
   ul.navbar-nav li.dropdown ul.dropdown-menu li.dropdown-submenu a i {
-    margin-top: -22px; }
+    margin-top: -22px;
+  }
   ul.navbar-nav li.dropdown ul.dropdown-menu li.dropdown-submenu .dropdown-menu li a {
-    padding-left: 35px !important; }
+    padding-left: 35px !important;
+  }
   ul.navbar-nav .dropdown-menu {
     -webkit-box-shadow: none;
     box-shadow: none;
     border-top: 0;
-    background: none; }
+    background: none;
+  }
   ul.navbar-nav li a i,
   .dropdown-submenu > a:after {
     background: #f5f5f5;
@@ -121,83 +159,121 @@
     line-height: 28px;
     margin-top: -5px;
     text-align: center;
-    color: #000; }
+    color: #000;
+  }
   .dropdown-submenu > a:after {
-    margin-right: 0; }
+    margin-right: 0;
+  }
   .navbar-nav > li > .dropdown-menu.mega-menu-content {
-    display: none !important; } }
+    display: none !important;
+  }
+  .list-post-block .list-post > li:last-child {
+    margin-bottom: 25px;
+  }
+  .list-post-block.mrt-0 {
+    margin-top: 30px !important;
+  }
+  .paging {
+    margin-bottom: 50px;
+  }
+}
 
 /* Small Devices Potrait */
 @media (max-width: 767px) {
+  .navbar-collapse, .site-nav-inner {
+    background: #000 !important;
+  }
   .logo {
-    text-align: center; }
+    text-align: center;
+  }
   .logo img {
-    height: 40px; }
+    height: 40px;
+  }
   /* Navigation breakpoint */
   .navbar-toggler {
-    margin-left: 15px; }
+    margin-left: 15px;
+  }
   .navbar-collapse {
     border-top: 1px solid transparent;
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
   .navbar-collapse.collapse.show {
-    display: block; }
+    display: block;
+  }
   .navbar-collapse.collapse:after {
     display: block;
     content: "";
-    clear: both; }
+    clear: both;
+  }
   .navbar-collapse,
   .site-nav-inner {
     background: none;
-    width: 100%; }
+    width: 100%;
+  }
   ul.navbar-nav > li:hover > a:after,
   ul.navbar-nav > li.active > a:after {
-    content: ''; }
+    content: '';
+  }
   ul.navbar-nav > li > a:before {
-    border-bottom: 0; }
+    border-bottom: 0;
+  }
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
-    padding: 10px 15px 10px 10px; }
+    padding: 10px 15px 10px 10px;
+  }
   ul.navbar-nav > li {
-    display: block; }
+    display: block;
+  }
   .navbar-nav .open .dropdown-menu > li > a {
-    line-height: 30px; }
+    line-height: 30px;
+  }
   ul.navbar-nav > li.nav-search,
   ul.navbar-nav > li.header-get-a-quote {
-    display: none; }
+    display: none;
+  }
   ul.navbar-nav {
     width: 100%;
-    padding: 0 0 10px; }
+    padding: 0 0 10px;
+  }
   ul.navbar-nav > li {
-    float: none; }
+    float: none;
+  }
   ul.navbar-nav li a {
     line-height: normal !important;
     color: #fff;
     border-bottom: 1px solid #333 !important;
     padding: 10px 0;
-    display: block; }
+    display: block;
+  }
   ul.navbar-nav .dropdown-menu > li > a {
-    padding-left: 15px; }
+    padding-left: 15px;
+  }
   ul.navbar-nav .dropdown-menu {
     float: none;
     position: relative;
     border: 0;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+  }
   ul.navbar-nav li.dropdown ul.dropdown-menu li.dropdown-submenu .dropdown-menu {
     left: 0;
-    position: relative; }
+    position: relative;
+  }
   ul.navbar-nav li.dropdown ul.dropdown-menu li.dropdown-submenu a i {
-    margin-top: -22px; }
+    margin-top: -22px;
+  }
   ul.navbar-nav li.dropdown ul.dropdown-menu li.dropdown-submenu .dropdown-menu li a {
-    padding-left: 20px; }
+    padding-left: 20px;
+  }
   ul.navbar-nav .dropdown-menu {
     -webkit-box-shadow: none;
     box-shadow: none;
     border-top: 0;
     background: none;
     padding-left: 15px;
-    padding-right: 15px; }
+    padding-right: 15px;
+  }
   ul.navbar-nav li a i,
   .dropdown-submenu > a:after {
     background: #f5f5f5;
@@ -207,17 +283,32 @@
     height: 28px;
     line-height: 28px;
     margin-top: -5px;
-    text-align: center; }
+    text-align: center;
+  }
   .dropdown-submenu > a:after {
-    margin-right: 0; }
+    margin-right: 0;
+  }
   .navbar-nav > li > .dropdown-menu.mega-menu-content {
-    display: none !important; }
+    display: none !important;
+  }
   ul.navbar-nav > .nav-item > .nav-link {
     display: block;
     padding: 16px 12px;
-    color: #fff; }
+    color: #fff;
+  }
   .search-block {
-    width: 220px; } }
+    width: 220px;
+  }
+  .list-post-block .list-post > li:last-child {
+    margin-bottom: 25px;
+  }
+  .list-post-block.mrt-0 {
+    margin-top: 30px !important;
+  }
+  .paging {
+    margin-bottom: 50px;
+  }
+}
 
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */

@@ -1,0 +1,115 @@
+/*==================================================  
+                    Top Bar
+================================================== */
+.top-bar {
+  background: #0a0a0a;
+  padding: 5px 0; }
+
+.ts-date-top {
+  color: #888888; }
+  .ts-date-top i {
+    margin-right: 5px; }
+
+.topbar-user-panel {
+  color: #888888;
+  text-align: right; }
+  .topbar-user-panel a {
+    color: #888888; }
+    .topbar-user-panel a:hover {
+      text-decoration: underline; }
+
+.ts-subscribe {
+  margin-right: 30px; }
+
+/* Home 2 */
+.logo.header-bg {
+  padding: 35px 0; }
+
+.top-bar.ts-white-bg {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #000; }
+  .top-bar.ts-white-bg .ts-date-top {
+    margin-right: 30px;
+    color: #000; }
+  .top-bar.ts-white-bg .topbar-user-panel a {
+    color: #000; }
+  .top-bar.ts-white-bg .topbar-user-panel span {
+    margin-left: 10px;
+    position: relative; }
+  .top-bar.ts-white-bg .ts-subscribe {
+    margin-right: 0; }
+  .top-bar.ts-white-bg .ts-signin:after {
+    position: relative;
+    left: -41px;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    content: "/";
+    color: #000;
+    margin: 0 5px; }
+
+.ts-top-temperature i {
+  margin-right: 5px; }
+
+.ts-top-temperature span b {
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+  top: -3px; }
+
+/*==================================================  
+                    header
+================================================== */
+.header {
+  padding: 10px 0; }
+
+/* Logo
+================================================== */
+.logo {
+  padding: 20px 0; }
+
+/* breaking news Bar
+================================================== */
+.breaking-news-bar {
+  color: #888888;
+  padding: 20px 0; }
+
+.breaking-news-bar .post-title {
+  margin: 0;
+  padding: 3px 0; }
+
+.breaking-news-bar .owl-carousel.owl-theme .owl-nav {
+  position: absolute;
+  right: -20px;
+  margin: 0;
+  bottom: -110%; }
+
+.breaking-news-bar .owl-carousel.owl-theme .owl-nav > div {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #515151; }
+
+.owl-carousel.owl-theme.breaking-news-slide.owl-nav > div:hover {
+  background: #007fef;
+  border: 1px solid transparent;
+  color: #fff; }
+
+.breaking-news-title {
+  color: #ff0000;
+  font-size: 14px;
+  padding: 10px;
+  line-height: 100%;
+  text-transform: uppercase;
+  float: left;
+  margin: 0 20px 0 0;
+  font-weight: 900; }
+
+.breaking-news-bar .post-title a {
+  color: #888888;
+  font-size: 14px;
+  font-family: 'Open Sans';
+  font-weight: 400; }
+
+.left-breaking-news-slide .post-title a {
+  color: #000; }

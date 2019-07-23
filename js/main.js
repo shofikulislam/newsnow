@@ -98,7 +98,32 @@ jQuery(function ($) {
    mouseDrag:false,
    slideSpeed:500,
    items : 1,
-   dotsContainer: '#carousel-custom-dots',
+   navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+   responsive:{
+     0:{
+         items:1
+     },
+     600:{
+         items:1
+     }
+   }
+
+});
+
+  $(".left-breaking-news-slide").owlCarousel({
+
+   loop:true,
+   animateIn: 'fadeIn',
+   autoplay:true,
+   autoplayTimeout:3000,
+   autoplayHoverPause:true,
+   nav:true,
+   margin:30,
+   dots:false,
+   mouseDrag:false,
+   slideSpeed:500,
+   navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+   items : 1,
    responsive:{
      0:{
          items:1
@@ -110,17 +135,16 @@ jQuery(function ($) {
 
 });
    /* ---------------------------------------------
-                     Featured Slider
+                     featured Slider
    ------------------------------------------------ */
    $(".featured-slider").owlCarousel({
 
       loop:true,
-      animateOut: 'fadeOut',
-      autoplay:false,
+      autoplay:true,
       autoplayHoverPause:true,
       nav:true,
-      margin:0,
-      dots:true,
+      margin:2,
+      dots:false,
       mouseDrag:true,
       touchDrag:true,
       slideSpeed:500,
@@ -137,6 +161,65 @@ jQuery(function ($) {
 
    });
 
+   /* ---------------------------------------------
+                     video block Slider
+   ------------------------------------------------ */
+   $(".post-content-carousel-wrapper").owlCarousel({
+
+      loop:false,
+      autoplay:false,
+      autoplayHoverPause:true,
+      nav:true,
+      margin:2,
+      dots:false,
+      mouseDrag:true,
+      touchDrag:true,
+      slideSpeed:500,
+      navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+      items : 1,
+      responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        }
+      }
+
+   });
+
+  /* ---------------------------------------------
+                     video post Slider
+   ------------------------------------------------ */
+   if ($('.carousel-post-inner').length > 0) {
+      $('.carousel-post-inner').owlCarousel({
+          items: 3,
+          dots: false,
+          loop: true,
+          nav: true,
+          margin: 2,
+          navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+          responsive: {
+              // breakpoint from 0 up
+              0: {
+                  items: 1,
+              },
+              // breakpoint from 480 up
+              480: {
+                  items: 2,
+              },
+              // breakpoint from 768 up
+              768: {
+                  items: 2,
+              },
+              // breakpoint from 768 up
+              1200: {
+                  items: 2,
+              }
+          }
+      });
+  }
+
 
 
    
@@ -145,23 +228,23 @@ jQuery(function ($) {
    /*=============================================================
    			video popup
    	=========================================================================*/
-      // if ($('.ts-video-popup').length > 0) {
-      //    $('.ts-video-popup').magnificPopup({
-      //       type: 'iframe',
-      //       closeOnContentClick: false,
-      //       midClick: true,
-      //       callbacks: {
-      //          beforeOpen: function () {
-      //             this.st.mainClass = this.st.el.attr('data-effect');
-      //          }
-      //       },
-      //       zoom: {
-      //          enabled: true,
-      //          duration: 500, // don't foget to change the duration also in CSS
-      //       },
-      //       mainClass: 'mfp-fade',
-      //    });
-      // }
+      if ($('.popup').length > 0) {
+         $('.popup').magnificPopup({
+            type: 'iframe',
+            closeOnContentClick: false,
+            midClick: true,
+            callbacks: {
+               beforeOpen: function () {
+                  this.st.mainClass = this.st.el.attr('data-effect');
+               }
+            },
+            zoom: {
+               enabled: true,
+               duration: 500, // don't foget to change the duration also in CSS
+            },
+            mainClass: 'mfp-fade',
+         });
+      }
 
 
 

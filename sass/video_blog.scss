@@ -1,94 +1,94 @@
 /* Video Block
 ================================================== */
 
-.video-block .nav-tabs .nav-item.show .nav-link,
-.video-block .nav-tabs .nav-link.active {
-   background: transparent;
-}
+// .video-block .nav-tabs .nav-item.show .nav-link,
+// .video-block .nav-tabs .nav-link.active {
+//    background: transparent;
+// }
 
-.video-tab .row {
-   background: #eee;
-   padding-left: 10px;
-   padding-top: 25px;
-   padding-bottom: 25px;
-   padding-right: 10px;
-}
+// .video-tab .row {
+//    background: #eee;
+//    padding-left: 10px;
+//    padding-top: 25px;
+//    padding-bottom: 25px;
+//    padding-right: 10px;
+// }
 
-.video-block {
-   background: transparent;
-   color: #fff;
-   padding-top: 0px;
-   padding-bottom: 7px;
-   margin-top: -35px;
-   .row {
-      margin-left: 0;
-      margin-right: 0;
-   }
-}
+// .video-block {
+//    background: transparent;
+//    color: #fff;
+//    padding-top: 0px;
+//    padding-bottom: 7px;
+//    margin-top: -35px;
+//    .row {
+//       margin-left: 0;
+//       margin-right: 0;
+//    }
+// }
 
 
-.video-block.color-green a.post-cat {
-   background: #32b336;
-   color: #fff;
-   font-size: 11px;
-   text-transform: uppercase;
-   font-weight: 600;
-   padding: 1px 5px;
-}
+// .video-block.color-green a.post-cat {
+//    background: #32b336;
+//    color: #fff;
+//    font-size: 11px;
+//    text-transform: uppercase;
+//    font-weight: 600;
+//    padding: 1px 5px;
+// }
 
-.video-tab-title {
-   color: #fff;
-   font-size: 18px;
-   text-transform: uppercase;
-   margin: 0 0 30px 15px;
-}
+// .video-tab-title {
+//    color: #fff;
+//    font-size: 18px;
+//    text-transform: uppercase;
+//    margin: 0 0 30px 15px;
+// }
 
-.video-tab .post-overaly-style {
-   min-height: 430px;
-   .post-content {
-      padding: 35px;
-   }
-}
+// .video-tab .post-overaly-style {
+//    min-height: 430px;
+//    .post-content {
+//       padding: 35px;
+//    }
+// }
 
-.video-tab {
-   .post-title {
-      font-size: 24px;
-      line-height: 30px;
-      font-weight: normal;
-   }
-   .nav-tabs {
-      >li {
-         width: 100%;
-         float: none;
-         display: block;
-         margin-bottom: -1px;
-         border: 1px solid rgba(0, 0, 0, 0.05);
-         padding: 25px 35px 32px;
-         >a {
-            background: none;
-            border: 0;
-            padding: 0;
-            h3 {
-               color: #1c1c1c;
-               font-weight: normal;
-               line-height: 28px;
-               font-size: 16px;
-               margin: 0;
-            }
-            .post-thumb {
-               float: left;
-               margin-right: 20px;
-               position: relative;
-               overflow: hidden;
-               img {
-                  max-width: 110px;
-                  min-height: 85px;
-               }
-            } 
-         }
-      }
-   }
-}
+// .video-tab {
+//    .post-title {
+//       font-size: 24px;
+//       line-height: 30px;
+//       font-weight: normal;
+//    }
+//    .nav-tabs {
+//       >li {
+//          width: 100%;
+//          float: none;
+//          display: block;
+//          margin-bottom: -1px;
+//          border: 1px solid rgba(0, 0, 0, 0.05);
+//          padding: 25px 35px 32px;
+//          >a {
+//             background: none;
+//             border: 0;
+//             padding: 0;
+//             h3 {
+//                color: #1c1c1c;
+//                font-weight: normal;
+//                line-height: 28px;
+//                font-size: 16px;
+//                margin: 0;
+//             }
+//             .post-thumb {
+//                float: left;
+//                margin-right: 20px;
+//                position: relative;
+//                overflow: hidden;
+//                img {
+//                   max-width: 110px;
+//                   min-height: 85px;
+//                }
+//             } 
+//          }
+//       }
+//    }
+// }
 
 
 
@@ -111,5 +111,16 @@
    border-radius: 100%;
    i {
       margin-left: 5px;
+   }
+}
+
+/*==================================================  
+                   video block
+================================================== */
+
+.full-width-video {
+   .video-icon {
+      background: #fff;
+      color: #fb313b;
    }
 }

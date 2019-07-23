@@ -6,15 +6,15 @@
          text-align: center;
 
          [class*=owl-] {
-            background: rgba(0, 0, 0, 0.65);
-            color: #fff;
+            background: #fff;
+            color: #ee362e;
             position: absolute;
-            bottom: 0;
-            top: 50%;
-            right: 0;
-            width: 34px;
-            height: 40px;
-            line-height: 30px;
+            bottom: 20px;
+            // top: 50%;
+            right: 30px;
+            width: 30px;
+            height: 30px;
+            line-height: 20px;
             font-size: 20px;
             text-align: center;
             margin: 0;
@@ -29,11 +29,12 @@
 
             &:hover {
                background: #fb313b;
+               color: #fff;
             }
          }
 
          [class*=owl-prev] {
-            right: 40px;
+            right: 70px;
          }
       }
 
@@ -72,8 +73,8 @@
          .owl-prev,
          .owl-next {
             &.disabled {
-               background: #ff5c23 !important;
-               color: #fff !important;
+               background: #fff !important;
+               color: #000 !important;
             }
          }
       }

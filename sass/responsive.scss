@@ -173,12 +173,32 @@
     .navbar-nav>li>.dropdown-menu.mega-menu-content {
        display: none !important;
     }
+    .list-post-block .list-post > li:last-child {
+      margin-bottom: 25px;
+  }
+  .list-post-block.mrt-0 {
+   margin-top: 30px !important;
+}
+.paging {
+   margin-bottom: 50px;
+}
     
  }
  
  /* Small Devices Potrait */
  
  @media (max-width: 767px) {
+   .navbar-collapse, .site-nav-inner {
+      background: #000 !important;
+  }
+  .breaking-news-bar {
+   width: 100%;
+ }
+ .breaking-news-bar .owl-nav {
+   position: absolute;
+   right: 0;
+   top: -27px;
+ }
    
     .logo {
        text-align: center;
@@ -296,6 +316,15 @@
        width: 220px;
     }
     
+    .list-post-block .list-post > li:last-child {
+      margin-bottom: 25px;
+  }
+  .list-post-block.mrt-0 {
+   margin-top: 30px !important;
+}
+.paging {
+   margin-bottom: 50px;
+}
  }
  
  /* Extra Small Devices, Phones */
