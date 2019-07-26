@@ -93,20 +93,11 @@ jQuery(function ($) {
    autoplayTimeout:3000,
    autoplayHoverPause:true,
    nav:false,
-   margin:30,
    dots:false,
-   mouseDrag:false,
+   mouseDrag:true,
    slideSpeed:500,
    items : 1,
-   navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-   responsive:{
-     0:{
-         items:1
-     },
-     600:{
-         items:1
-     }
-   }
+   navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
 
 });
 
@@ -118,9 +109,9 @@ jQuery(function ($) {
    autoplayTimeout:3000,
    autoplayHoverPause:true,
    nav:true,
-   margin:30,
    dots:false,
-   mouseDrag:false,
+   margin: 5,
+   mouseDrag:true,
    slideSpeed:500,
    navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
    items : 1,
@@ -193,7 +184,7 @@ jQuery(function ($) {
    ------------------------------------------------ */
    if ($('.carousel-post-inner').length > 0) {
       $('.carousel-post-inner').owlCarousel({
-          items: 3,
+          items: 2,
           dots: false,
           loop: true,
           nav: true,
@@ -206,11 +197,11 @@ jQuery(function ($) {
               },
               // breakpoint from 480 up
               480: {
-                  items: 2,
+                  items: 1,
               },
               // breakpoint from 768 up
               768: {
-                  items: 2,
+                  items: 1,
               },
               // breakpoint from 768 up
               1200: {
@@ -221,7 +212,9 @@ jQuery(function ($) {
   }
 
 
-
+// $('.carousel').carousel({
+//    items:1;
+// });
    
    
 
@@ -272,10 +265,6 @@ jQuery(function ($) {
       }, 800);
    });
 
-
-
-
-  
 
 
 });

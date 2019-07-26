@@ -475,6 +475,12 @@ a[href^=tel] {
   }
 }
 
+@media (max-width: 767px) {
+  .m-top-15 {
+    margin-top: 15px;
+  }
+}
+
 /*-- Color title --*/
 .color-white {
   color: #fff;
@@ -682,12 +688,6 @@ a[href^=tel] {
   height: 14px;
   left: -11px;
   top: 0px;
-}
-
-@media (max-width: 767px) {
-  .block-title > span:after {
-    bottom: -15px;
-  }
 }
 
 /*-- block style 2 --*/
@@ -944,6 +944,7 @@ span.post-comment span {
 /* Post overaly white background Content */
 .post-content.ts-white-bg {
   left: 40px;
+  right: 0;
 }
 
 .post-content.ts-white-bg .post-title {
@@ -1044,7 +1045,6 @@ span.post-comment span {
   margin: 3px 0;
 }
 
-/*-- Post Overaly cat top --*/
 /*-- Review box --*/
 .review-box {
   background: #1c1c1c;
@@ -1064,12 +1064,6 @@ span.post-comment span {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-@media (max-width: 767px) {
-  .list-post {
-    padding-bottom: 10px;
-  }
 }
 
 .list-post-block .list-post > li {
@@ -1212,6 +1206,9 @@ span.post-comment span {
 .breaking-news-bar {
   color: #888888;
   padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .breaking-news-bar .post-title {
@@ -1219,11 +1216,16 @@ span.post-comment span {
   padding: 3px 0;
 }
 
+.breaking-news-slide.owl-carousel.owl-theme {
+  display: inline-block;
+  width: 65%;
+}
+
 .breaking-news-bar .owl-carousel.owl-theme .owl-nav {
   position: absolute;
   right: -20px;
   margin: 0;
-  bottom: -110%;
+  top: 65px;
 }
 
 .breaking-news-bar .owl-carousel.owl-theme .owl-nav > div {
@@ -1246,6 +1248,7 @@ span.post-comment span {
   float: left;
   margin: 0 20px 0 0;
   font-weight: 900;
+  display: inline-block;
 }
 
 .breaking-news-bar .post-title a {
@@ -1253,6 +1256,11 @@ span.post-comment span {
   font-size: 14px;
   font-family: 'Open Sans';
   font-weight: 400;
+}
+
+.left-breaking-news-slide.owl-carousel.owl-theme {
+  width: 86%;
+  display: inline-block;
 }
 
 .left-breaking-news-slide .post-title a {
@@ -1292,7 +1300,7 @@ span.post-comment span {
   border-radius: 0;
   margin-right: 5px;
   background: #ee362e;
-  height: 30px;
+  height: 33px;
   width: 35px;
   text-align: center;
   color: #fff;
@@ -1805,6 +1813,10 @@ ul.navbar-nav > li.mega-dropdown {
   min-height: 300px;
 }
 
+.ts-post-overaly-style-6 {
+  margin-top: 35px;
+}
+
 .ts-post-overaly-style-6 .post-thumb img {
   min-height: 120px;
 }
@@ -1986,7 +1998,8 @@ ul.navbar-nav > li.mega-dropdown {
   border-right: 1px solid #e7e7e745;
 }
 
-.ts-block-social-list li a b, .ts-block-social-list li a span {
+.ts-block-social-list li a b,
+.ts-block-social-list li a span {
   color: #fff;
   font-weight: 500;
   text-transform: capitalize;
