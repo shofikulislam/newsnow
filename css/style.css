@@ -1749,7 +1749,7 @@ ul.navbar-nav > li.mega-dropdown {
 /*==================================================  
                   featured slider
 ================================================== */
-.featured-slider.owl-carousel.owl-theme .owl-nav [class*=owl-] {
+.featured-slider.owl-carousel.owl-theme .owl-nav [class*=owl-], .slider-style-2.owl-carousel.owl-theme .owl-nav [class*=owl-] {
   top: 50%;
   right: 0;
   width: 34px;
@@ -1760,17 +1760,17 @@ ul.navbar-nav > li.mega-dropdown {
   opacity: 0;
 }
 
-.featured-slider.owl-carousel.owl-theme .owl-nav [class*=owl-prev] {
+.featured-slider.owl-carousel.owl-theme .owl-nav [class*=owl-prev], .slider-style-2.owl-carousel.owl-theme .owl-nav [class*=owl-prev] {
   left: 0;
 }
 
-.featured-slider.owl-theme .owl-nav > [class*=owl-]:hover {
+.featured-slider.owl-theme .owl-nav > [class*=owl-]:hover, .slider-style-2.owl-theme .owl-nav > [class*=owl-]:hover {
   background: #ec0000;
   color: #fff;
   border: 0;
 }
 
-.featured-slider.owl-theme:hover .owl-nav [class*=owl-] {
+.featured-slider.owl-theme:hover .owl-nav [class*=owl-], .slider-style-2.owl-theme:hover .owl-nav [class*=owl-] {
   opacity: 1;
 }
 

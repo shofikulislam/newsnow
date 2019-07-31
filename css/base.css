@@ -365,6 +365,10 @@ a[href^=tel] {
   .pad-r-0 {
     padding-right: 0; } }
 
+@media (max-width: 767px) {
+  .m-top-15 {
+    margin-top: 15px; } }
+
 /*-- Color title --*/
 .color-white {
   color: #fff; }
@@ -518,10 +522,6 @@ a[href^=tel] {
   height: 14px;
   left: -11px;
   top: 0px; }
-
-@media (max-width: 767px) {
-  .block-title > span:after {
-    bottom: -15px; } }
 
 /*-- block style 2 --*/
 .block-style-2 p {
@@ -735,7 +735,8 @@ span.post-comment span {
 
 /* Post overaly white background Content */
 .post-content.ts-white-bg {
-  left: 40px; }
+  left: 40px;
+  right: 0; }
   .post-content.ts-white-bg .post-title {
     margin-top: 0;
     font-size: 20px;
@@ -819,7 +820,6 @@ span.post-comment span {
 .post-block-style .post-content .post-meta {
   margin: 3px 0; }
 
-/*-- Post Overaly cat top --*/
 /*-- Review box --*/
 .review-box {
   background: #1c1c1c;
@@ -837,10 +837,6 @@ span.post-comment span {
   list-style: none;
   margin: 0;
   padding: 0; }
-
-@media (max-width: 767px) {
-  .list-post {
-    padding-bottom: 10px; } }
 
 .list-post-block .list-post > li {
   margin-bottom: 25px; }

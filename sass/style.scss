@@ -46,7 +46,7 @@
                   featured slider
 ================================================== */
 
-.featured-slider {
+.featured-slider, .slider-style-2 {
    &.owl-carousel.owl-theme .owl-nav [class*=owl-] {
       top: 50%;
       right: 0;
@@ -135,6 +135,12 @@
       min-height: 330px;
    }
 }
+
+// .ts-post-overaly-style-8 {
+//    .post-thumb img {
+//       min-height: 450px;
+//    }
+// }
 
 /*==================================================  
                   hero slider 

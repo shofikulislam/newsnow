@@ -152,6 +152,30 @@ jQuery(function ($) {
 
    });
 
+   $(".slider-style-2").owlCarousel({
+
+      loop:true,
+      autoplay:true,
+      autoplayHoverPause:true,
+      nav:true,
+      margin:2,
+      dots:false,
+      mouseDrag:true,
+      touchDrag:true,
+      slideSpeed:500,
+      navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+      items : 3,
+      responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        }
+      }
+
+   });
+
    /* ---------------------------------------------
                      video block Slider
    ------------------------------------------------ */
