@@ -152,7 +152,7 @@ jQuery(function ($) {
 
    });
 
-   $(".slider-style-2").owlCarousel({
+   $(".feature-slider-style-2").owlCarousel({
 
       loop:true,
       autoplay:true,
@@ -169,7 +169,10 @@ jQuery(function ($) {
         0:{
             items:1
         },
-        600:{
+        768:{
+            items:2
+        },
+        992:{
             items:3
         }
       }

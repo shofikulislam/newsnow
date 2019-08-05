@@ -46,7 +46,7 @@
                   featured slider
 ================================================== */
 
-.featured-slider, .slider-style-2 {
+.featured-slider, .feature-slider-style-2{
    &.owl-carousel.owl-theme .owl-nav [class*=owl-] {
       top: 50%;
       right: 0;
@@ -662,6 +662,53 @@
    }
 }
 
+/*--------- single post ---*/
+.ts-grid-box {
+   position: relative;
+   margin-bottom: 70px;
+   background: #fff;
+ }
+
+ /*-------------- breadcrumb ---------------- */
+ .breadcrumb {
+   background: #fff;
+   padding: 0;
+   border-radius: 0;
+ }
+ 
+ .breadcrumb li a {
+   font-size: 14px;
+   color: #717171;
+ }
+ 
+ .block-title.title-extra-large {
+   font-size: 42px;
+   padding: 0;
+   border-bottom: 0;
+   display: inline-block;
+   margin-bottom: 0;
+   font-weight: 900;
+}
+
+.block-title.title-extra-large:before {
+   display: none;
+}
+
+.ts-category-list li {
+   list-style: none;
+   display: inline-block;
+   margin-left: 5px;
+}
+
+.ts-category-list {
+   margin-bottom: 0;
+   margin-top: 18px;
+}
+ /*-------------- ts category post ---------------- */
+.ts-recent-post.ts-category-post .post-cat {
+   position: absolute;
+   left: 20px;
+}
 /*==================================================  
                     footer
 ================================================== */

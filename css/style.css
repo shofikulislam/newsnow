@@ -1749,7 +1749,7 @@ ul.navbar-nav > li.mega-dropdown {
 /*==================================================  
                   featured slider
 ================================================== */
-.featured-slider.owl-carousel.owl-theme .owl-nav [class*=owl-], .slider-style-2.owl-carousel.owl-theme .owl-nav [class*=owl-] {
+.featured-slider.owl-carousel.owl-theme .owl-nav [class*=owl-], .feature-slider-style-2.owl-carousel.owl-theme .owl-nav [class*=owl-] {
   top: 50%;
   right: 0;
   width: 34px;
@@ -1760,17 +1760,17 @@ ul.navbar-nav > li.mega-dropdown {
   opacity: 0;
 }
 
-.featured-slider.owl-carousel.owl-theme .owl-nav [class*=owl-prev], .slider-style-2.owl-carousel.owl-theme .owl-nav [class*=owl-prev] {
+.featured-slider.owl-carousel.owl-theme .owl-nav [class*=owl-prev], .feature-slider-style-2.owl-carousel.owl-theme .owl-nav [class*=owl-prev] {
   left: 0;
 }
 
-.featured-slider.owl-theme .owl-nav > [class*=owl-]:hover, .slider-style-2.owl-theme .owl-nav > [class*=owl-]:hover {
+.featured-slider.owl-theme .owl-nav > [class*=owl-]:hover, .feature-slider-style-2.owl-theme .owl-nav > [class*=owl-]:hover {
   background: #ec0000;
   color: #fff;
   border: 0;
 }
 
-.featured-slider.owl-theme:hover .owl-nav [class*=owl-], .slider-style-2.owl-theme:hover .owl-nav [class*=owl-] {
+.featured-slider.owl-theme:hover .owl-nav [class*=owl-], .feature-slider-style-2.owl-theme:hover .owl-nav [class*=owl-] {
   opacity: 1;
 }
 
@@ -2294,6 +2294,55 @@ ul.navbar-nav > li.mega-dropdown {
 
 .ts-block-social-box li a .fa-youtube {
   background-color: #F24234;
+}
+
+/*--------- single post ---*/
+.ts-grid-box {
+  position: relative;
+  margin-bottom: 70px;
+  background: #fff;
+}
+
+/*-------------- breadcrumb ---------------- */
+.breadcrumb {
+  background: #fff;
+  padding: 0;
+  border-radius: 0;
+}
+
+.breadcrumb li a {
+  font-size: 14px;
+  color: #717171;
+}
+
+.block-title.title-extra-large {
+  font-size: 42px;
+  padding: 0;
+  border-bottom: 0;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 900;
+}
+
+.block-title.title-extra-large:before {
+  display: none;
+}
+
+.ts-category-list li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.ts-category-list {
+  margin-bottom: 0;
+  margin-top: 18px;
+}
+
+/*-------------- ts category post ---------------- */
+.ts-recent-post.ts-category-post .post-cat {
+  position: absolute;
+  left: 20px;
 }
 
 /*==================================================  
