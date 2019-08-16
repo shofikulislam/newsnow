@@ -156,6 +156,10 @@ img.banner {
    clear: both;
    height: 20px;
 }
+.gap-15 {
+   clear: both;
+   height: 15px;
+}
 
 .gap-4 {
    clear: both;
@@ -181,6 +185,10 @@ img.banner {
 
 .pab {
    padding-bottom: 0;
+}
+
+.pab-25 {
+   padding-bottom: 25px;
 }
 
 .pab-35 {
@@ -280,43 +288,43 @@ hr {
 }
 
 blockquote {
-   position: relative;
-   background: #f7f7f7;
-   padding: 45px 50px 30px;
-   border: 0;
-   margin: 50px 0 40px;
-   font-size: 22px;
-   line-height: 34px;
-   font-family: Arimo, sans-serif;
-   font-weight: 400;
-   text-align: center;
-}
-
-blockquote:before {
-   position: absolute;
-   content: '\f10e';
-   font-family: FontAwesome;
    font-size: 24px;
-   padding: 8px 15px;
-   top: -30px;
-   left: 50%;
-   margin-left: -44px;
-   color: #fff;
-   background: #ec0000;
-}
+   color: #000000;
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-style: italic;
+   text-align: center;
+   padding: 35px 90px;
+   line-height: 30px;
+   position: relative;
 
-cite {
-   display: block;
-   font-size: 14px;
-   margin-top: 10px;
 }
-
-blockquote.pull-left {
-   padding-left: 15px;
-   padding-right: 0;
+.blockquote-style-2 {
    text-align: left;
-   border-left: 5px solid #eee;
-   border-right: 0;
+   font-size: 20px;
+   font-weight: 500;
+   border: 1px solid #efefef;
+   padding-right: 30px;
+   margin: 30px 40px;
+}
+
+.blockquote-style-2:before {
+   content: '\f10d';
+   font-family: 'Fontawesome';
+   position: absolute;
+   left: 30px;
+   font-size: 50px;
+   display: block;
+   /* width: 100px; */
+   height: 100%;
+   color: #e5e5e5;
+   line-height: 80px;
+   padding: 0 37px 0 0;
+   font-style: normal;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   margin: auto;
 }
 
 /* Button */
@@ -1058,7 +1066,17 @@ span.post-comment span {
 .post-block-style .post-content .post-meta {
    margin: 3px 0;
 }
-
+/*-- Post Block style --*/
+.post-block-style.post-float.post-block-style-2 .post-thumb img {
+   max-width: 350px;
+   min-height: 430px;
+   margin-bottom: 20px
+}
+.post-block-style-2 {
+   p {
+      line-height: 26px;
+   }
+}
 /*-- Review box --*/
 
 .review-box {

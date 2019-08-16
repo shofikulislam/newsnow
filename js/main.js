@@ -178,7 +178,32 @@ jQuery(function ($) {
       }
 
    });
+  /* ---------------------------------------------
+                    Post Slider
+   ------------------------------------------------ */
+   $(".post-slider").owlCarousel({
 
+      loop:true,
+      autoplay:true,
+      autoplayHoverPause:true,
+      nav:true,
+      margin:2,
+      dots:false,
+      mouseDrag:true,
+      touchDrag:true,
+      slideSpeed:500,
+      navText: ["<i class='icon icon-arrow-left'></i>", "<i class='icon icon-arrow-right'></i>"],
+      items : 1,
+      responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        }
+      }
+
+   });
    /* ---------------------------------------------
                      video block Slider
    ------------------------------------------------ */
