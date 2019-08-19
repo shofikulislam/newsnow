@@ -937,6 +937,32 @@
    font-size: 12px;
    padding: 2px 8px;
 }
+
+/* nav tabs */
+.related-post-tabs {
+.nav.nav-tabs {
+   width: 100%;
+}
+
+.nav.nav-tabs li {
+   padding: 10px 0px;
+   font-size: 20px;
+   font-weight: 900;
+}
+
+.nav.nav-tabs li a {
+   color: #717171;
+   padding: 9px 30px;
+}
+
+.nav.nav-tabs li a.active {
+   border-bottom: 1px solid #383838;
+   color: #383838;
+}
+.ts-grid-box{
+   margin-bottom:40px;
+}
+}
 /*==================================================  
                     footer
 ================================================== */
