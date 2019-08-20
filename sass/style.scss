@@ -140,7 +140,7 @@
 
 // .ts-post-overaly-style-8 {
 //    .post-thumb img {
-//       min-height: 450px;
+//       min-height: 520px;
 //    }
 // }
 
@@ -962,6 +962,105 @@
 .ts-grid-box{
    margin-bottom:40px;
 }
+}
+
+.comments-area {
+   .comments-heading {
+      font-size: 20px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid #eee;
+      font-weight: 900;
+   }
+}
+
+.comments-list {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   margin-bottom: 45px;
+   .comment {
+      margin-bottom: 40px;
+      .comment-avatar {
+         width: 70px;
+         height: 70px;
+         border-radius: 50%;
+      }
+      .comment-body {
+         margin-left: 90px;
+         .comment-author {
+            font-size: 18px;
+            color: #101010;
+            font-weight: 600;
+         }
+         .comment-date {
+            display: block;
+            font-size: 14px;
+            margin-top: -2px;
+            margin-bottom: 10px;
+         }
+         .meta-data {
+            span {
+               a {
+                  color: #666666;
+                  font-size: 14px;
+                  i {
+                     font-size: 16px;
+                     color: #252a37;
+                     margin-right: 5px;
+                  }
+               }
+            }
+         } //Meta data
+      } //Comment Body
+   } //Comment
+   .comments-reply {
+      list-style: none;
+      margin: 0;
+      padding-left: 100px;
+      .comment {
+         border-bottom: 1px solid #eee;
+         padding-bottom: 30px;
+         margin-bottom: 30px;
+         .comment-body {
+            background: #f7f9fd;
+            padding: 25px 30px 10px;
+         }
+      }
+   } //COmment replay
+} //Comments list
+.comments-form {
+   .form-control {
+      &:focus {
+         color: #666;
+      }
+   }
+   .title-normal {
+      margin-bottom: 35px;
+      font-size: 24px;
+   }
+   form {
+      input {
+         padding: 12px 18px;
+         border-radius: 00;
+         border-color: #eeeeee;
+      }
+      textarea {
+         border-radius: 0;
+         border-color: #eeeeee;
+         resize: none;
+      }
+   }
+} //COmment Form
+
+/*single post style 2 */
+.single-post-content {
+   .post-title {
+      font-size: 30px;
+      line-height: 35px;
+   }
+   .post-meta {
+      padding: 25px 0;
+  }
 }
 /*==================================================  
                     footer
